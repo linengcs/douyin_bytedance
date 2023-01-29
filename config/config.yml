@@ -1,0 +1,27 @@
+database:
+  TYPE: mysql
+  USER: root
+  PASSWORD: 12345678
+  HOST: 127.0.0.1
+  PORT: 3306
+  NAME: douyin
+
+ossAli:
+  EndPoint: oss-cn-chengdu.aliyuncs.com
+  AccessKeyId: LTAI5t7cHCTBP8a6sFPnWydm
+  AccessKeySecret: BfgvJ4U5crSfIMN8sNg9JAjf7HsJTD
+  BucketName: doushengvideo
+  SufferUrl: http://doushengvideo.oss-cn-chengdu.aliyuncs.com/
+
+log:
+  Filename: log/debug.log
+  MaxSize: 200
+  MaxAge: 30
+  MaxBackups: 10
+  Level: info
+
+ossQiNiu:
+  AccessKey: BPQzDKZWxPA8zpYLp5chpxvuo93AFnoL-D3Thi95
+  SecretKey: FAoTAkSjyek7kTMhlHKGDSZ6N2B1YujnhlX3Dl5W
+  Bucket: minidouyin
+  QiniuServer: rdmi7s9kv.hn-bkt.clouddn.com
